@@ -1,0 +1,4 @@
+.vscode
+sdkconfig.development
+
+.pio/**
