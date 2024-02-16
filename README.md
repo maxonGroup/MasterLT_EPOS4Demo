@@ -22,7 +22,7 @@ You may use this as a "getting started" point from which you can develop your ow
         <li><a href="#uploading">Uploading</a></li>
       </ul>
     </li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#useful-documents">Useful Documents</a></li>
     <li><a href="#feedback">Feedback</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -73,18 +73,18 @@ The sequence of motion and actions of the connected motor and its driver are:
 The main program also contains threads/tasks that enable simultaneous programs to run on the master PLC. 
 
 The receiver task handles incoming CAN bus messages into the PLC.
-```sh
+```cpp
 static void receiverTask(void *pvParameters)
 ```
 
 The heartbeat task handles broadcasting heartbeats to the CAN bus for monitoring communication bus health and power loss detection.
-```sh
+```cpp
 static void heartbeatTask(void *pvParameters)
 ```
 
 
 The PDO configuration function provides an example of setting up a receive PDO for motion control.
-```sh
+```cpp
 ERROR_CODE_t PDOHelper(EPOS4 &node)
 ```
 
@@ -120,7 +120,7 @@ The instructions provided here are aimed to setup Visual Studio Code (VS Code) a
 
 The plaformio.ini file included should trigger the creation of a .pio folder containing all dependencies. The .ini file contains the following code:
 
-```sh
+```
 ; PlatformIO Project Configuration File
 ;
 ;   Build options: build flags, source filter
