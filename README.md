@@ -57,7 +57,7 @@ The entry point for the demo program is src/main.cpp, ```app_main()```.
 The demo program provides a working example to configure the CAN bus, initialise the connected EPOS4 device, and perform motion examples on the connected motor. 
 
 The demo program imports the [MasterLT_EPOS4Library](https://github.com/maxonGroup/MasterLT_EPOS4Library). 
-Please refer to the [EPOS4 Class Library Documentation](https://www.google.com/) for the software reference for the MasterLT_EPOS4Library.
+Please refer to the [EPOS4 Class Library Documentation](https://www.maxongroup.net.au/medias/sys_master/root/9233349345310/2402-EPOS4Class-Documentation.pdf) for the software reference for the MasterLT_EPOS4Library.
 
 The sequence of motion and actions of the connected motor and its driver are:
 
@@ -154,7 +154,7 @@ Upload the main program from VS Code.
 
 ## Useful Documents
 
-* [EPOS4 Class Library Documentation](https://www.google.com/) 
+* [EPOS4 Class Library Documentation](https://www.maxongroup.net.au/medias/sys_master/root/9233349345310/2402-EPOS4Class-Documentation.pdf) 
 * [MiniMaster LT Hardware Reference](https://www.maxongroup.net.au/medias/sys_master/root/9232989061150/2402-MiniMaster-LT-Hardware-Reference.pdf)
 * [MicroMaster LT Hardware Reference](https://www.maxongroup.net.au/medias/sys_master/root/9224075935774/2401-MicroMaster-LT-Hardware-Reference.pdf)
 
